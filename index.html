@@ -13,7 +13,7 @@
     header{border-bottom:1px solid #e5e7eb; position:sticky; top:0; background:#fff; z-index:10}
     .nav{display:flex; align-items:center; gap:18px; padding:10px 0}
     .nav .name{font-weight:700; font-size:1.05rem}
-    .nav nav{margin-left:auto; display:flex; align-items:center; gap:26px} /* right align + larger gaps */
+    .nav nav{margin-left:auto; display:flex; align-items:center; gap:26px}
     .nav a{color:var(--fg); text-decoration:none; font-size:1rem}
     .nav a:hover{text-decoration:underline}
     main{padding:24px 0 56px}
@@ -25,6 +25,7 @@
     .muted{color:var(--muted)}
     .sep{border:none; border-top:1px solid #e5e7eb; margin:22px 0}
     ul{padding-left:1.1rem}
+    .subpoints{ list-style-type: circle; padding-left:1.25rem; margin:.25rem 0 .6rem } /* hollow bullets for sub-notes */
     .home-grid{display:grid; grid-template-columns: .85fr 1.4fr; gap:22px; align-items:start}
     .photo{width:100%; border:1px solid #e5e7eb; border-radius:8px}
     .contact-grid{display:grid; grid-template-columns:1fr; gap:.2rem}
@@ -80,9 +81,9 @@
     <section aria-labelledby="edu">
       <h2 id="edu">Education</h2>
       <ul>
-        <li><strong>Ph.D., Accounting</strong>, Hong Kong University of Science and Technology (HKUST), 2024.</li>
-        <li><strong>M.Phil., Accounting</strong>, Xiamen University, 2018.</li>
-        <li><strong>B.S., Accounting</strong>, Ocean University of China, 2014.</li>
+        <li>Ph.D., Accounting, Hong Kong University of Science and Technology (HKUST), 2024.</li>
+        <li>M.Phil., Accounting, Xiamen University, 2018.</li>
+        <li>B.S., Accounting, Ocean University of China, 2014.</li>
       </ul>
     </section>
 
@@ -101,22 +102,37 @@
 
       <h3>Working Papers</h3>
       <ul>
-        <li><strong>How Does Product Market Competition Affect Disclosure of Management Forecasts: Evidence from China Imports</strong> (with Zhihong Chen, Charles Hsu), 2025<br/>
-          ● R&R at <em>Journal of Accounting and Economics</em><br/>
-          ● Presented at: AAA Annual Meeting, HKUST
+        <li>
+          <strong>How Does Product Market Competition Affect Disclosure of Management Forecasts: Evidence from China Imports</strong> (with Zhihong Chen, Charles Hsu), 2025
+          <ul class="subpoints">
+            <li>R&R at <em>Journal of Accounting and Economics</em></li>
+            <li>Presented at: AAA Annual Meeting, HKUST</li>
+          </ul>
         </li>
-        <li><strong>Non-GAAP Reporting and Innovation Efficiency</strong> (with Charles Hsu, Kirill E. Novoselov), 2025<br/>
-          ● Supported by: Hong Kong Research Grants Council (RGC) fund<br/>
-          ● Presented at: AAA Annual Congress, HKUST, CUHK, CUHK-Shenzhen, Monash University, Seoul National University, Simon Fraser University, Xiamen University
+        <li>
+          <strong>Non-GAAP Reporting and Innovation Efficiency</strong> (with Charles Hsu, Kirill E. Novoselov), 2025
+          <ul class="subpoints">
+            <li>Supported by: Hong Kong Research Grants Council (RGC) fund</li>
+            <li>Presented at: AAA Annual Congress, HKUST, CUHK, CUHK-Shenzhen, Monash University, Seoul National University, Simon Fraser University, Xiamen University</li>
+          </ul>
         </li>
-        <li><strong>Non-fundamental Price Risk and Non-GAAP Reporting: Evidence from Stock Price Fragility</strong> (solo-authored, based on Ph.D. dissertation), 2025<br/>
-          ● Presented at: EMFA, HKUST Business School PhD Student Conference, CUFE Doctoral Forum, HKUST
+        <li>
+          <strong>Non-fundamental Price Risk and Non-GAAP Reporting: Evidence from Stock Price Fragility</strong> (solo-authored, based on Ph.D. dissertation), 2025
+          <ul class="subpoints">
+            <li>Presented at: EMFA, HKUST Business School PhD Student Conference, CUFE Doctoral Forum, HKUST</li>
+          </ul>
         </li>
-        <li><strong>The Role of Real Assets in Voluntary Disclosure: Evidence From Asset Redeployability</strong> (with Charles Hsu, based on second-year paper), 2025<br/>
-          ● Presented at: EAA Annual Congress, HKUST
+        <li>
+          <strong>The Role of Real Assets in Voluntary Disclosure: Evidence From Asset Redeployability</strong> (with Charles Hsu, based on second-year paper), 2025
+          <ul class="subpoints">
+            <li>Presented at: EAA Annual Congress, HKUST</li>
+          </ul>
         </li>
-        <li><strong>Institutional Common Ownership and Non-GAAP Reporting</strong> (with Charles Hsu, Irene Xiao), 2025<br/>
-          ● Presented at: AAA Annual Meeting, HKUST, Peking University, Xiamen University
+        <li>
+          <strong>Institutional Common Ownership and Non-GAAP Reporting</strong> (with Charles Hsu, Irene Xiao), 2025
+          <ul class="subpoints">
+            <li>Presented at: AAA Annual Meeting, HKUST, Peking University, Xiamen University</li>
+          </ul>
         </li>
       </ul>
 
@@ -147,7 +163,8 @@
     <hr class="sep" />
 
     <section id="conferences" aria-labelledby="conferences-title">
-      <h2 id="conferences-title">Selected Conferences & Workshops (*denotes presentations)</h2>
+      <h2 id="conferences-title">Selected Conferences & Workshops</h2>
+      <p>(*denotes presentations)</p>
       <ul>
         <li>AAA Annual Meeting (2023*, 2024*)</li>
         <li>EAA Annual Congress (2023*)</li>
@@ -193,8 +210,8 @@
       <h2 id="srv">Service & Engagement</h2>
       <ul>
         <li>Ad hoc reviewer: AAA Annual Meeting, <em>Asia Pacific Journal of Management</em></li>
-        <li><strong>Student Supervision:</strong>
-          <ul>
+        <li>Student supervision:
+          <ul class="subpoints">
             <li>CESEM Program: 2 undergraduate theses</li>
             <li>GBBA Program: 3 undergraduate theses</li>
           </ul>
