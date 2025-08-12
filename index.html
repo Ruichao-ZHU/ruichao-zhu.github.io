@@ -8,26 +8,26 @@
   <style>
     :root{ --fg:#111827; --muted:#4b5563; --link:#1d4ed8; --maxw:860px; }
     html{font-size:16px}
-    body{margin:0; color:var(--fg); background:#fff; font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; line-height:1.65}
+    body{margin:0; color:var(--fg); background:#fff; font-family:-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"; line-height:1.7}
     .wrap{max-width:var(--maxw); margin:0 auto; padding:0 16px}
     header{border-bottom:1px solid #e5e7eb; position:sticky; top:0; background:#fff; z-index:10}
-    .nav{display:flex; align-items:center; flex-wrap:wrap; gap:14px; height:auto; padding:8px 0}
-    .nav .name{font-weight:700}
-    .nav a{color:var(--fg); text-decoration:none}
+    .nav{display:flex; align-items:center; flex-wrap:wrap; gap:18px; padding:10px 0}
+    .nav .name{font-weight:700; font-size:1.05rem}
+    .nav a{color:var(--fg); text-decoration:none; font-size:1rem}
     .nav a:hover{text-decoration:underline}
-    main{padding:24px 0 48px}
+    main{padding:24px 0 56px}
     h1{font-size:2rem; margin:.25rem 0 .25rem 0; font-weight:700}
-    h2{font-size:1.25rem; margin:1.2rem 0 .4rem 0}
-    h3{font-size:1rem; margin:1rem 0 .3rem 0}
+    h2{font-size:1.35rem; margin:1.2rem 0 .5rem 0}
+    h3{font-size:1.05rem; margin:1rem 0 .4rem 0}
     p, li{font-size:1rem}
     a{color:var(--link)}
     .muted{color:var(--muted)}
-    .sep{border:none; border-top:1px solid #e5e7eb; margin:18px 0}
+    .sep{border:none; border-top:1px solid #e5e7eb; margin:22px 0}
     ul{padding-left:1.1rem}
-    .home-grid{display:grid; grid-template-columns: .8fr 1.4fr; gap:20px; align-items:start}
+    .home-grid{display:grid; grid-template-columns: .85fr 1.4fr; gap:22px; align-items:start}
     .photo{width:100%; border:1px solid #e5e7eb; border-radius:8px}
     .contact-grid{display:grid; grid-template-columns:1fr; gap:.2rem}
-    footer{margin:40px 0; color:#6b7280; border-top:1px solid #e5e7eb; padding-top:12px}
+    footer{margin:40px 0; color:#6b7280; border-top:1px solid #e5e7eb; padding-top:12px; font-size:.95rem}
     @media (max-width: 800px){ .home-grid{grid-template-columns: 1fr} }
   </style>
 </head>
@@ -54,7 +54,7 @@
       <div>
         <h1 id="home-title">Ruichao ZHU</h1>
         <p class="muted">Assistant Professor of Accounting, NEOMA Business School (Rouen, France).</p>
-        <p><strong>Research interests:</strong> Information Economics · ESG · Auditing · Real Effects.</p>
+        <p><strong>Research interests:</strong> Information Economics , ESG , Auditing , Real Effects.</p>
         <p>
           <strong>Contact</strong><br>
           NEOMA Business School — Campus de Rouen<br>
@@ -146,9 +146,8 @@
     <hr class="sep" />
 
     <section id="conferences" aria-labelledby="conferences-title">
-      <h2 id="conferences-title">Selected Conferences & Workshops</h2>
+      <h2 id="conferences-title">Selected Conferences & Workshops (*denotes presentations)</h2>
       <ul>
-        <li>(*denotes presentations)</li>
         <li>AAA Annual Meeting (2023*, 2024*)</li>
         <li>EAA Annual Congress (2023*)</li>
         <li>EFMA Annual Meeting (2023*)</li>
